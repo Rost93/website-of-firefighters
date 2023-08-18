@@ -8,7 +8,11 @@
 .block-1__content {
   width: 1920px;
   height: 904px;
+<<<<<<< HEAD
   background-image: url('./img/block-1.png'), url('./img/Rectangle 2.png');
+=======
+  background-image: url('img/background/block-1.png'), url('img/pic/Rectangle 2.png');
+>>>>>>> cc644d63522b71456d4fca785a7893ed04c57cf4
   background-size: 820px 600px, 100%;
   background-repeat: no-repeat, no-repeat;
   background-position: top 191px right, top 277px center;
