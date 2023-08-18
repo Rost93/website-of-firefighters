@@ -1,0 +1,54 @@
+.container {
+  box-sizing: border-box;
+  min-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.block-1__content {
+  width: 1920px;
+  height: 904px;
+  background-image: url('/img/background/block-1.png'), url('/img/pic/Rectangle\ 2.png');
+  background-size: 820px 600px, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 191px right, top 277px center;
+}
+
+.content__text {
+  padding-top: 355px;
+  padding-right: 814px;
+  padding-left: 309px;
+  padding-bottom: 120px;
+}
+
+.block-1__title {
+  width: 800px;
+  color: var(--white, #FFF);
+  font-family: Roboto;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 50.4px */
+  text-transform: uppercase;
+}
+
+.text-bold {
+  color: var(--white, #FFF);
+font-family: Roboto;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+text-transform: uppercase;
+}
+
+.items__item {
+  color: var(--black, #2C2C2C);
+
+/* H4 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 26px */
+}

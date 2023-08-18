@@ -1,0 +1,64 @@
+/* reset.css */
+
+/* Box sizing rules */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default anchor (link) styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove outline on focused elements */
+a:focus, button:focus {
+  outline: none;
+}
+
+/* Reset form elements to avoid inconsistent styling */
+button, input, select, textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  appearance: none;
+  resize: none;
+}
+
+/* Set default font family and line height */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* Make images responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Remove underlines from links within buttons */
+button a, a button {
+  text-decoration: none;
+}
+
+/* Remove horizontal scrollbar caused by some browsers */
+html {
+  overflow-x: hidden;
+}
